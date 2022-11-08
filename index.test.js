@@ -8,31 +8,31 @@ test('Функция должна вернуть число', () => {
 	expect(type).toBe('number');
 });
 
-test('Тест. str: [1, 2, 3, 4, 5]', () => {
+test('Тест. arr: [1, 2, 3, 4, 5]', () => {
 	const res = sumOfArray([1, 2, 3, 4, 5]);
 
 	expect(res).toBe(15);
 });
 
-test('Тест. str: []', () => {
+test('Тест. arr: []', () => {
 	const res = sumOfArray([]);
 
 	expect(res).toBe(0);
 });
 
-test('Тест. str: [9]', () => {
+test('Тест. arr: [9]', () => {
 	const res = sumOfArray([9]);
 
 	expect(res).toBe(9);
 });
 
-test('Тест. str: [6, 8, 3, 1]', () => {
+test('Тест. arr: [6, 8, 3, 1]', () => {
 	const res = sumOfArray([6, 8, 3, 1]);
 
 	expect(res).toBe(18);
 });
 
-test('Тест. str: [2, 5, 7, 8, 8]', () => {
+test('Тест. arr: [2, 5, 7, 8, 8]', () => {
 	const res = sumOfArray([2, 5, 7, 8, 8]);
 
 	expect(res).toBe(30);
